@@ -1,0 +1,36 @@
+#voucher_list{
+  display: grid;
+  grid-template-columns: repeat(4,20%);
+  grid-template-rows: auto;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  gap: 5%;
+  text-align: center;
+  
+}
+#voucher_list img{ 
+  width: 100%;
+}
+.voucher h3{
+  background-color: cornflowerblue;
+  
+  
+}
+.voucher{
+  background-color: darkgreen;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: aquamarine;
+}
+.voucher button{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.voucher button:hover{
+  background-color: blueviolet;
+  border-radius: 5px;
+}

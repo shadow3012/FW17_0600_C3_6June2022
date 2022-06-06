@@ -1,0 +1,32 @@
+#form{
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    background-color: chartreuse;
+    width: 70%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: .8px .7px .8px .9px;
+}
+input{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: .5px .5px .5px .5px;
+    border-radius: 5px;
+    text-align: center;
+    height: 20px;
+}
+#submit{
+    width: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+#submit:hover{
+background-color: blueviolet;
+}

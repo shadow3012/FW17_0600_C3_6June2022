@@ -1,0 +1,29 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid;
+    border-color: blue;
+    
+}
+
+body{text-align: center;
+text-decoration: none;
+background-color: antiquewhite;}
+h3,a{
+    background-color: violet;
+    color: white;
+    text-decoration: none;
+    
+}
+h3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input{
+    background-color: white;
+}

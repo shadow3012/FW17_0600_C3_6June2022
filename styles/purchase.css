@@ -1,0 +1,21 @@
+#purchased_vouchers{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: space-around;
+    gap: 3%;
+
+}
+#purchased_vouchers img{
+    width: 100%;
+
+}
+#purchased_vouchers div>h3{
+    background-color: cornflowerblue;
+}
+#purchased_vouchers div{
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: double;
+    border-color: aquamarine;
+}
